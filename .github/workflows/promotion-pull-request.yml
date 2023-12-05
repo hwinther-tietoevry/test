@@ -49,7 +49,7 @@ jobs:
         with:
           token: ${{ secrets.WORKFLOW_TOKEN }}
           branch: test
-          title: Merging test changes to main
+          title: Merge test changes to main
           body: Automatically created pull-request in order to merge changes that were recently pushed to the test branch, back to main
           # assignees: hwinther-tietoevry
           draft: true
@@ -101,7 +101,7 @@ jobs:
         with:
           token: ${{ secrets.WORKFLOW_TOKEN }}
           branch: dev
-          title: Merging dev changes to test
+          title: Merge dev changes to test
           body: Automatically created pull-request in order to merge changes that were recently pushed to the dev branch, back to test
           # assignees: hwinther-tietoevry
           draft: true
