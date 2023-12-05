@@ -11,7 +11,7 @@ on:
 jobs:
   update-tag-pr-comment:
     runs-on: ubuntu-latest
-    # TODO: this is obviously broken
+    # TODO: this is obviously broken and next to be fixed
     if: ${{ github.event_name == 'pull_request' }}
     steps:
       - name: Checkout
