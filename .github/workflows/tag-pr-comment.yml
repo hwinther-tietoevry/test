@@ -1,4 +1,4 @@
-name: "Maintain tag (version) PR comment"
+name: "Maintain version tag PR comment"
 
 on:
   push:
