@@ -2,17 +2,11 @@
   "version": 1,
   "dependencies": {
     "net8.0": {
-      "GitVersion.MsBuild": {
-        "type": "Direct",
-        "requested": "[5.12.0, )",
-        "resolved": "5.12.0",
-        "contentHash": "dJuigXycpJNOiLT9or7mkHSkGFHgGW3/p6cNNYEKZBa7Hhp1FdX/cvqYWWYhRLpfoZOedeA7aRbYiOB3vW/dvA=="
-      },
       "Microsoft.AspNetCore.OpenApi": {
         "type": "Direct",
-        "requested": "[8.0.2, )",
-        "resolved": "8.0.2",
-        "contentHash": "59xQBsH+2at3+rrLazCNbaLhS1gmMY2fT1rSxa116EQ2oCbdULerytaYtr0h5iew+BVwJZNsWgvU3fOpt74DCA==",
+        "requested": "[8.0.16, )",
+        "resolved": "8.0.16",
+        "contentHash": "jeZBYi62BKGRZXEkXAr9hj1L6u71HRKE7EPaZBouF1xmKdQIX7GO5oSRLTQLQmmST0y/aaI+Mr4OzyyRjmBFog==",
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
         }
